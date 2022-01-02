@@ -1,0 +1,166 @@
+{
+    "products": [
+    {
+        "id": "1",
+        "title":  "Cards",
+        "supports": [
+            "Vue", "Vanilla JS"
+        ],
+        "img": "https://assets.materialup.com/uploads/3571958b-d6eb-40e1-a39a-aff99b9850e3/preview.png",
+        "price": 0.99
+    },
+    {
+        "id": "2",
+        "title":  "Card",
+        "supports": [
+            "React", "Angular", "Vue", "Vanilla JS", "Flutter", "Styled Component"
+        ],
+        "img": "https://assets.materialup.com/uploads/3571958b-d6eb-40e1-a39a-aff99b9850e3/preview.png",
+        "price": 0.99
+    },
+    {
+        "id": "3",
+        "title":  "Cards",
+        "supports": [
+            "Vanilla JS"
+        ],
+        "img": "https://assets.materialup.com/uploads/3571958b-d6eb-40e1-a39a-aff99b9850e3/preview.png",
+        "price": 0.99
+    },
+    {
+        "id": "4",
+        "title":  "Cards",
+        "supports": [
+            "React", "Vue", "Vanilla JS"
+        ],
+        "img": "https://assets.materialup.com/uploads/3571958b-d6eb-40e1-a39a-aff99b9850e3/preview.png",
+        "price": 0.99
+    },
+    {
+        "id": "5",
+        "title":  "Cards",
+        "supports": [
+           "Angular", "Vue"
+        ],
+        "img": "https://assets.materialup.com/uploads/3571958b-d6eb-40e1-a39a-aff99b9850e3/preview.png",
+        "price": 0.99
+    },
+    {
+        "id": "6",
+        "title":  "Cards",
+        "supports": [
+            "Vue", "Vanilla JS"
+        ],
+        "img": "https://assets.materialup.com/uploads/3571958b-d6eb-40e1-a39a-aff99b9850e3/preview.png",
+        "price": 0.99
+    },
+    {
+        "id": "7",
+        "title":  "Cards",
+        "supports": [
+            "React", "Angular", "Vue", "Vanilla JS"
+        ],
+        "img": "https://assets.materialup.com/uploads/3571958b-d6eb-40e1-a39a-aff99b9850e3/preview.png",
+        "price": 0.99
+    },
+    {
+        "id": "8",
+        "title":  "Cards",
+        "supports": [
+            "React", "Angular"
+        ],
+        "img": "https://assets.materialup.com/uploads/3571958b-d6eb-40e1-a39a-aff99b9850e3/preview.png",
+        "price": 0.99
+    },
+    {
+        "id": "9",
+        "title":  "Cards",
+        "supports": [
+            "React", "Angular", "Vanilla JS"
+        ],
+        "img": "https://assets.materialup.com/uploads/3571958b-d6eb-40e1-a39a-aff99b9850e3/preview.png",
+        "price": 0.99
+    },
+    {
+        "id": "10",
+        "title":  "Cards",
+        "supports": [
+            "Vue"
+        ],
+        "img": "https://assets.materialup.com/uploads/3571958b-d6eb-40e1-a39a-aff99b9850e3/preview.png",
+        "price": 0.99
+    },
+    {
+        "id": "11",
+        "title":  "Cards",
+        "supports": [
+           "Angular"
+        ],
+        "img": "https://assets.materialup.com/uploads/3571958b-d6eb-40e1-a39a-aff99b9850e3/preview.png",
+        "price": 0.99
+    },
+    {
+        "id": "12",
+        "title":  "Cards",
+        "supports": [
+           "Vanilla JS"
+        ],
+        "img": "https://assets.materialup.com/uploads/3571958b-d6eb-40e1-a39a-aff99b9850e3/preview.png",
+        "price": 0.99
+    },
+    {
+        "id": "13",
+        "title":  "Cards",
+        "supports": [
+            "React", "Vanilla JS"
+        ],
+        "img": "https://assets.materialup.com/uploads/3571958b-d6eb-40e1-a39a-aff99b9850e3/preview.png",
+        "price": 0.99
+    },
+    {
+        "id": "14",
+        "title":  "Cards",
+        "supports": [
+            "React", "Angular"
+        ],
+        "img": "https://assets.materialup.com/uploads/3571958b-d6eb-40e1-a39a-aff99b9850e3/preview.png",
+        "price": 0.99
+    },
+    {
+        "id": "15",
+        "title":  "Cards",
+        "supports": [
+            "React"
+        ],
+        "img": "https://assets.materialup.com/uploads/3571958b-d6eb-40e1-a39a-aff99b9850e3/preview.png",
+        "price": 0.99
+    },
+    {
+        "id": "16",
+        "title":  "Cards",
+        "supports": [
+            "React", "React Native"
+        ],
+        "img": "https://assets.materialup.com/uploads/3571958b-d6eb-40e1-a39a-aff99b9850e3/preview.png",
+        "price": 0.99
+    },
+    {
+        "id": "17",
+        "title":  "Cards",
+        "supports": [
+            "Angular", "Next", "Vanilla JS"
+        ],
+        "img": "https://assets.materialup.com/uploads/3571958b-d6eb-40e1-a39a-aff99b9850e3/preview.png",
+        "price": 0.99
+    },
+    {
+        "id": "18",
+        "title":  "Cards",
+        "supports": [
+            "React", "Vue", "Vanilla JS"
+        ],
+        "img": "https://assets.materialup.com/uploads/3571958b-d6eb-40e1-a39a-aff99b9850e3/preview.png",
+        "price": 0.99
+    }
+]
+}
