@@ -94,7 +94,7 @@ function Products({ history }: { history?: History }) {
     }, [])
 
     return (
-        <ProductsWrapper>
+        <ProductsWrapper data-testid="products">
             {
                 // isFetching || isLoading // createApi 
                 loading // regular dispatch

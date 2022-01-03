@@ -7,8 +7,8 @@ interface Props {
 function SearchInput({ handleOnChange }: Props): ReactElement {
 
     return (
-        <div>
-            <input onChange={handleOnChange} type="text" placeholder='search...'></input>
+        <div data-testid="option-test-2">
+            <input data-testid="search-input" onChange={handleOnChange} type="text" placeholder='search...'></input>
         </div>
     )
 }

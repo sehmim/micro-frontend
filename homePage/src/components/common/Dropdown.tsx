@@ -48,14 +48,14 @@ export function Dropdown({ initial, values, onChange }: DropDownPropType): React
     }
 
     return (
-        <DropDownWrapper>
+        <DropDownWrapper data-testid="option-test-1">
             {
                 <DropDownListContainer>
-                    <DropDownList onChange={handleChange}>
+                    <DropDownList data-testid="input" onChange={handleChange}>
                         {
                             values.map((item) => {
                                 return (
-                                    <ListItem>{item}</ListItem>
+                                    <ListItem value={item} key={item}>{item}</ListItem>
                                 )
                             })
                         }

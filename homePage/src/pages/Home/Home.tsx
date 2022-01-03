@@ -11,7 +11,7 @@ const HomeContainer = styled.div`
     border: 1px solid rgba(153,153,153, 0.4);
 `
 
-const H1 = styled.h1`
+export const H1 = styled.h1`
     font-size: 55px;
     font-weight: 500;
     padding: 25px
@@ -22,7 +22,7 @@ function Home({ history }: { history?: History }): ReactElement {
 
     return (
         <HomeContainer>
-            <H1>{t('header')}</H1>
+            <H1 data-testid="header">{t('header')}</H1>
             <Filters />
             <Products history={history} />
         </HomeContainer>

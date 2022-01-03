@@ -1,14 +1,12 @@
 import i18next from 'i18next'
-import React, { ChangeEvent, ReactElement, useState, useEffect } from 'react'
+import { ChangeEvent, ReactElement } from 'react'
 import { useTranslation } from 'react-i18next'
 import styled from 'styled-components'
 import { useAppDispatch, useAppSelector } from '../../hooks/rtk'
-import { filterProductsByTag, updateProductsList } from '../../slices/products/productsSlice'
+import { updateProductsList } from '../../slices/products/productsSlice'
 import { Product } from '../../types'
-import { Checkbox, Dropdown } from '../common'
+import { Dropdown } from '../common'
 import SearchInput from '../common/SearchInput'
-
-import tmp_data from '../../util/db.json'
 
 import FuzzySearch from 'fuzzy-search';
 import * as _ from "lodash";
@@ -26,8 +24,6 @@ const FiltersWrapper = styled.div`
     flex-direction: row;
     justify-content: space-between;
 `
-
-const LocaleWrapper = styled.div``
 
 const Container = styled.div`
     display: flex;
@@ -64,7 +60,7 @@ function Filters({ }: Props): ReactElement {
         <FiltersWrapper>
             <Container>
                 <SearchInput handleOnChange={handleSearch} />
-                <label>{t('productCount')} : {products.length}</label>
+                <label data-testid="products-label">{t('productCount')} : {products.length}</label>
             </Container>
             <Dropdown onChange={handleTranslation} initial='--lang--' values={['en', 'fr', 'es']} />
         </FiltersWrapper>
